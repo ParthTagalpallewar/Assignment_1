@@ -33,6 +33,12 @@ dependencies:
   http: ^1.0.0
   bloc:
   flutter_bloc:
+  equatable: ^2.0.5
+  rxdart: ^0.27.3
+  country_state_city_pro: ^0.0.6
+  # just_audio: ^0.9.32
+  # permission_handler: ^11.1.0
+  # path_provider: ^2.0.11
 
 
   # The following adds the Cupertino Icons font to your application.

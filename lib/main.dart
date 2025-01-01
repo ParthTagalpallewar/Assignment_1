@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/screens/products/ui/product_page.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:untitled/screens/home_screen/bloc/home_bloc.dart';
+import 'package:untitled/screens/home_screen/ui/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ProductsScreen(),
+      home: const HomePage()
     );
   }
 }
